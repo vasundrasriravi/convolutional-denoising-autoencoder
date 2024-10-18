@@ -7,7 +7,7 @@ To develop a convolutional autoencoder for image denoising application.
 An autoencoder is an unsupervised neural network that encodes input images into lower-dimensional representations and decodes them back, aiming for identical outputs. We use the MNIST dataset, consisting of 60,000 handwritten digits (28x28 pixels), to train a convolutional neural network for digit classification. The goal is to accurately classify each digit into one of 10 classes, from 0 to 9.
 
 ## Convolution Autoencoder Network Model
-Include the neural network model diagram.
+![nn7](https://github.com/user-attachments/assets/25e3c9f3-d715-4481-8bbc-207432665e99)
 
 ## DESIGN STEPS
 ### STEP 1:
@@ -124,10 +124,8 @@ for i in range(1, n + 1):
 plt.show()
 ```
 ## OUTPUT
-
 ### Training Loss, Validation Loss Vs Iteration Plot
-
-Include your plot here
+![pltimg](https://github.com/user-attachments/assets/93ff7aa1-f613-4acb-b083-742e5c47ba8c)
 
 ### Original vs Noisy Vs Reconstructed Image
 ![reimg](https://github.com/user-attachments/assets/1808ca12-f773-4134-9fe6-13a5f6732402)
